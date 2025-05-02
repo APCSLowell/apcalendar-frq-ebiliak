@@ -12,7 +12,7 @@ public class APCalendar
    */
   public static int numberOfLeapYears(int year1, int year2)
   { 
-   new int = years;
+   new int years = 0;
     for(int i = year1; i < year2; i++){
       if(isLeapYear(i) = true){
         years ++;
@@ -59,7 +59,7 @@ public class APCalendar
     int day = 0;
     int start = firstDayOfYear(year);
     int fday = dayOfYear(month, day, year);
-    day = ((start + fday) % 7) - 1);;
+    day = ((start + fday) % 7) - 1);
     return day;
     
   }
